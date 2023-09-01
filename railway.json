@@ -4,6 +4,6 @@
         "builder": "NIXPACKS"
     },
     "deploy": {
-        "startCommand": "npx directus bootstrap && npx directus start"
+        "startCommand": "npm i directus-extension-schema-management-module && npx directus bootstrap && npx directus start"
     }
 }
